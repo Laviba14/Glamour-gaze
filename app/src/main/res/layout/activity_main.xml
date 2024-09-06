@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:src="@drawable/image1" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Makeup World!"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textColorHighlight="@color/black"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
